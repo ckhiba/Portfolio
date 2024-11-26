@@ -1,0 +1,153 @@
+body{
+    background-color:rgb(203, 187, 165);
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#home{
+    height: 650px;
+    width: 100%;
+    padding-top: 50px;
+    background-color: rgb(203, 187, 165);
+}
+#img {
+    text-align: center; /* This centers the image horizontally */
+    margin-top: 20px;
+    background-color: rgb(203, 187, 165);
+}
+img{
+    border-radius: 50%;
+}
+.head1{
+    color: rgb(27, 24, 24);
+    text-align: center;
+    font-size: 50px;
+}
+.phara1{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(56, 52, 52);
+}
+#aboutme{
+    padding: 10px;
+    background-color:rgb(227, 216, 201);
+}
+.head2{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: rgb(27, 24, 24);
+
+}
+.phara2{
+    font-size: large;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: justify;
+    line-height: 1.8;
+}
+#btn1 a {
+    color: white;
+    text-decoration: none;
+}
+#btn1{
+    display: block;
+    background-color:dimgray;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+    border-radius: 25px;
+    border: none;
+
+}
+#btn1:hover {
+    background-color: darkslategrey;
+}
+
+
+#education{
+    padding: 50px;
+    background-color: rgb(203, 187, 165);
+}
+h3 {
+    color: black;
+    margin-left: 200px;
+}
+i {
+    color: rgb(55, 46, 46);
+}
+#skills{
+    padding: 10px;
+    background-color:rgb(227, 216, 201);
+    text-align: center;
+}
+#skills i {
+    font-size: 80px;
+    margin: 20px;
+}
+
+#contactme{
+    padding: 10px;
+    background-color: rgb(203, 187, 165);
+}
+form{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color:rgb(214, 212, 212);
+    border: none;
+    border-radius: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color:rgb(214, 212, 212);
+    border: none;
+    border-radius: 10px;
+}
+#btn2{
+    display: block;
+    border: none;
+    color: white;
+    background-color: dimgray;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fa-envelope, .fa-github ,.fa-phone {
+    margin-left: 10px;
+}
+
+.navbar{
+    background-color: #333;
+    color: aliceblue;
+    overflow: hidden;
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
+    text-align: center;
+}
+.navbar a {
+    display: block;
+    float: left;
+    color: azure;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    color: white;
+}
